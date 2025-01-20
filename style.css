@@ -179,6 +179,7 @@ nav .Admission {
 .curriculum_box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 .curriculum_heding {
   text-align: center;
@@ -288,5 +289,90 @@ nav .Admission {
   }
   .curriculum_box {
     gap: 12px;
+  }
+}
+
+/* footer section style */
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 520px;
+  background: #01acfd;
+}
+.footer_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 115px;
+}
+.footer_logo_section {
+  width: 450px;
+  height: auto;
+}
+.footer_logo {
+  display: flex;
+}
+.footer_logo img {
+  height: auto;
+  width: 100px;
+}
+.footer_title1 {
+  font-weight: 700;
+  font-size: 2.625rem;
+  color: #ffff;
+}
+
+.footer_dec {
+  font-size: 1.26rem;
+  font-weight: 400;
+  color: white;
+  margin-top: 30px;
+}
+.footer_title2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 33px;
+  margin-top: 20px;
+}
+
+footer,
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+/* footer section responsive */
+@media screen and (max-width: 576px) {
+  footer {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    background: #01acfd;
+  }
+  .footer_section {
+    flex-direction: column;
+  }
+  .footer_logo_section {
+    width: 100%;
+    height: auto;
+    margin-top: 65px;
+  }
+
+  .footer_section {
+    padding: 10px;
+  }
+  .footer_title1 {
+    font-size: 2.31rem;
+  }
+  .about_section {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .footer_icon {
+    width: 100%;
+    margin-bottom: 40px;
   }
 }
