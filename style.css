@@ -6,9 +6,9 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
-  box-sizing: border-box;
   font-family: Quicksand;
   max-width: 1500px;
   margin: 0 auto;
@@ -291,7 +291,99 @@ nav .Admission {
     gap: 12px;
   }
 }
+/* our_stories style */
+.our_stories {
+  height: 800px;
+  width: 100%;
+  margin: 0 auto;
+  background: url(image),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%),
+    url('./assets/bg.png');
+  background-size: 100%;
+}
+.stories_container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 65px;
+  gap: 15px;
+}
 
+.big_box {
+  background: #ffff;
+  width: 540px;
+  height: 100%;
+  border-radius: 16px;
+  width: 100%;
+}
+.big_box img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  width: 100%;
+}
+.big_box_info {
+  margin-top: 20px;
+  padding: 0 68px 34px 38px;
+}
+.stories_title {
+  text-align: center;
+  padding-top: 58px;
+  font-size: 2.857rem;
+  color: var(--main_color);
+}
+.stories_dec {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--dec_color);
+  margin-top: 47px;
+}
+
+#big_box_btn {
+  position: relative;
+  background: #3cd8e8;
+  padding: 15px 19px;
+  border-radius: 47px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #ffff;
+  display: flex;
+  margin-top: -30px;
+  margin-left: 20px;
+
+  border: none;
+}
+
+.somle_box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  height: 100%;
+}
+.somle_box img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+}
+.stories_box {
+  box-sizing: border-box !important;
+  background: #ffff;
+  width: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.stories_box h2 {
+  padding: 20px;
+}
+
+/* our_stories responsive */
+@media screen and (max-width: 576px) {
+  .big_box {
+    display: none;
+  }
+}
 /* footer section style */
 footer {
   margin-top: 100px;
@@ -301,9 +393,10 @@ footer {
 }
 .footer_section {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   padding: 115px;
+  margin-top: 300px;
 }
 .footer_logo_section {
   width: 450px;
@@ -334,6 +427,10 @@ footer {
   color: white;
   margin-bottom: 33px;
   margin-top: 20px;
+}
+.footer_menu {
+  list-style: none;
+  line-height: 2rem;
 }
 
 footer,
