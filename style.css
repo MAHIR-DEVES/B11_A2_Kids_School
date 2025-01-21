@@ -330,6 +330,9 @@ nav .Admission {
   .cur_btns_container {
     display: none;
   }
+  .curriculum_box {
+    flex-direction: column;
+  }
 }
 
 /* our_stories style */
