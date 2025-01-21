@@ -109,6 +109,16 @@ nav .Admission {
 }
 
 /* hero section style */
+.marquee_section {
+  display: flex;
+  justify-content: center;
+}
+
+marquee {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
 .hero_container {
   display: flex;
   align-items: center;
@@ -152,6 +162,14 @@ nav .Admission {
 
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
+  marquee {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #f1daa2;
+    width: 100%;
+    margin-top: 3px;
+  }
   .hero_container {
     flex-direction: column-reverse;
     margin-top: 25px;
@@ -466,6 +484,43 @@ nav .Admission {
     display: none;
   }
 }
+@media screen and (max-width: 783px) {
+  .stories_box {
+    height: fit-content;
+  }
+
+  .stories_container {
+    height: auto;
+  }
+
+  .stories_box {
+    width: 100%;
+  }
+  .stories_box h2 {
+    font-size: 15px;
+  }
+
+  .story_btn {
+    position: absolute;
+    left: 7px;
+    top: -15px;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 14px;
+    background-color: #95b226;
+  }
+  .stories_title {
+    padding-top: 10px;
+  }
+  .our_stories_wrapper {
+    padding: 0;
+  }
+  .primary_layout_width {
+    padding: 0 10px;
+  }
+}
 /* footer section style */
 footer {
   width: 100%;
@@ -525,7 +580,7 @@ a {
 /* footer section responsive */
 @media screen and (max-width: 576px) {
   footer {
-    margin-top: 100px;
+    margin-top: 50px;
     width: 100%;
     height: auto;
     background: #01acfd;
@@ -563,34 +618,5 @@ a {
 
   .big_box {
     display: none;
-  }
-}
-
-@media screen and (max-width: 783px) {
-  .stories_box {
-    height: fit-content;
-  }
-
-  .stories_container {
-    height: auto;
-  }
-
-  .stories_box {
-    width: 100%;
-  }
-  .stories_box h2 {
-    font-size: 15px;
-  }
-
-  .story_btn {
-    position: absolute;
-    left: 7px;
-    top: -15px;
-    padding: 2px 5px;
-    border: none;
-    border-radius: 50px;
-    color: white;
-    font-size: 14px;
-    background-color: #95b226;
   }
 }
