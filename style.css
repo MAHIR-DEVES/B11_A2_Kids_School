@@ -195,6 +195,7 @@ nav .Admission {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  flex-direction: column;
 }
 .curriculum_heding {
   text-align: center;
@@ -326,7 +327,11 @@ nav .Admission {
   .curriculum_box {
     gap: 12px;
   }
+  .cur_btns_container {
+    display: none;
+  }
 }
+
 /* our_stories style */
 
 .our_stories_wrapper {
@@ -569,5 +574,20 @@ a {
 
   .stories_box {
     width: 100%;
+  }
+  .stories_box h2 {
+    font-size: 15px;
+  }
+
+  .story_btn {
+    position: absolute;
+    left: 7px;
+    top: -15px;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 14px;
+    background-color: #95b226;
   }
 }
