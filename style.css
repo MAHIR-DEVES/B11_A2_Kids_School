@@ -195,7 +195,7 @@ nav .Admission {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  flex-direction: column;
+  flex-direction: row;
 }
 .curriculum_heding {
   text-align: center;
