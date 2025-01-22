@@ -556,7 +556,7 @@ marquee {
   }
   .stories_title {
     padding-top: 40px;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .our_stories_wrapper {
     padding: 0;
@@ -572,8 +572,8 @@ marquee {
     color: white;
     font-size: 0.8rem;
     font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
   }
 }
 /* footer section style */
