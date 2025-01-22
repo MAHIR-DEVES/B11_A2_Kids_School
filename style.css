@@ -158,6 +158,10 @@ marquee {
   border-radius: 12px;
   font-size: 1.25rem;
   font-weight: 700;
+  transition: 0.3s;
+}
+.hero_btn:hover {
+  background-color: #583b08;
 }
 
 /* responsive for mobile */
@@ -168,7 +172,7 @@ marquee {
     height: 40px;
     background-color: #f1daa2;
     width: 100%;
-    margin-top: 3px;
+    margin-top: 10px;
   }
   .hero_container {
     flex-direction: column-reverse;
@@ -419,6 +423,11 @@ marquee {
   font-size: 18px;
   font-weight: 600;
   margin-top: 3rem;
+  transition: 0.3s;
+}
+
+.stories_btn:hover {
+  background-color: #583b08;
 }
 
 #big_box_btn {
@@ -639,6 +648,7 @@ a {
   .footer_logo_section {
     width: 100%;
     height: auto;
+    margin-top: 10px;
   }
 
   .footer_section {
