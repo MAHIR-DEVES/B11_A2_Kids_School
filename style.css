@@ -555,7 +555,8 @@ marquee {
     background-color: #95b226;
   }
   .stories_title {
-    padding-top: 10px;
+    padding-top: 40px;
+    font-size: 1.5rem;
   }
   .our_stories_wrapper {
     padding: 0;
