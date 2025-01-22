@@ -80,7 +80,13 @@ nav .Admission {
   font-size: 1.25rem;
   font-weight: 600;
   color: white;
+  transition: 0.3s;
+  cursor: pointer;
 }
+.contact:hover {
+  background-color: #9a6c1c;
+}
+
 .bar_icon {
   display: none;
 }
@@ -118,6 +124,8 @@ marquee {
   display: flex;
   align-items: center;
   height: 40px;
+  width: 80%;
+  max-width: 1200px;
 }
 .hero_container {
   display: flex;
@@ -369,7 +377,7 @@ marquee {
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%),
     url(./assets/bg.png);
   width: 100%;
-  padding: 100px 0px;
+  padding: 0px 0px 60px 0px;
   background-size: 100%;
   display: flex;
   flex-direction: column;
@@ -427,7 +435,7 @@ marquee {
   color: white;
   font-size: 18px;
   font-weight: 600;
-  margin-top: 3rem;
+  margin-top: 58px;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -570,7 +578,7 @@ marquee {
 /* footer section style */
 footer {
   width: 100%;
-  height: 520px;
+  height: 465px;
   background: #01acfd;
 }
 .footer_section {
