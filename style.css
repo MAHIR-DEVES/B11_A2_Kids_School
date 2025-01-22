@@ -639,7 +639,6 @@ a {
   .footer_logo_section {
     width: 100%;
     height: auto;
-    margin-top: 10px;
   }
 
   .footer_section {
@@ -648,7 +647,8 @@ a {
 
   .footer_title2 {
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
+    margin-top: 15px;
   }
   footer a {
     font-size: 0.8rem;
