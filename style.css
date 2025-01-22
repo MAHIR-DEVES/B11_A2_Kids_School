@@ -159,9 +159,10 @@ marquee {
   font-size: 1.25rem;
   font-weight: 700;
   transition: 0.3s;
+  cursor: pointer;
 }
 .hero_btn:hover {
-  background-color: #583b08;
+  background-color: #9a6c1c;
 }
 
 /* responsive for mobile */
@@ -250,6 +251,10 @@ marquee {
   border: none;
   background-color: #fea301;
   cursor: pointer;
+  transition: 0.3s;
+}
+.cur_btns_container .cur_btn:hover {
+  background-color: #87620b;
 }
 
 .c_box_1 {
@@ -424,10 +429,11 @@ marquee {
   font-weight: 600;
   margin-top: 3rem;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .stories_btn:hover {
-  background-color: #583b08;
+  background-color: #9a6c1c;
 }
 
 #big_box_btn {
